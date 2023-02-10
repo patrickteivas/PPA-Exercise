@@ -1,7 +1,5 @@
 <script setup lang="ts">
 import InputsModal from "./components/InputsModal.vue";
-
-import { ref } from "vue";
 </script>
 
 <template>
