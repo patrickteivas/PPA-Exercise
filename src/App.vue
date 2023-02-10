@@ -2,12 +2,6 @@
 import InputsModal from "./components/InputsModal.vue";
 
 import { ref } from "vue";
-
-const isModalOpen = ref(false);
-
-const toggleModal = (forceValue?: boolean) => {
-  isModalOpen.value = forceValue ?? !isModalOpen.value;
-};
 </script>
 
 <template>
@@ -21,5 +15,5 @@ const toggleModal = (forceValue?: boolean) => {
     Nupp 1
   </button>
 
-  <InputsModal :show-modal="isModalOpen" @modalClosed="toggleModal(false)" />
+  <InputsModal />
 </template>
