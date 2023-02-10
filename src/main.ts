@@ -1,7 +1,7 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import App from "./App.vue";
 
 // Import our custom CSS
-import './scss/main.scss';
+import "./scss/main.scss";
 
-createApp(App).mount('#app')
+createApp(App).mount("#app");
